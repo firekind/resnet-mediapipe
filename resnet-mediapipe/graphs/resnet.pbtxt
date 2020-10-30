@@ -1,0 +1,8 @@
+input_stream: "in"
+output_stream: "CLASSIFICATIONS:out"
+
+node: {
+    calculator: "ResNetSubgraph"
+    input_stream: "in"
+    output_stream: "CLASSIFICATIONS:out"
+}
